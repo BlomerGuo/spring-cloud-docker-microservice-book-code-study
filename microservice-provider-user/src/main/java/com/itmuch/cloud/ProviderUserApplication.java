@@ -12,6 +12,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class ProviderUserApplication{
     public static void main( String[] args ){
-         SpringApplication.run(ProviderUserApplication.class, args); //update by Baron 20210731 10:30
+         SpringApplication.run(ProviderUserApplication.class, args); //update by Baron 20210731 15:30
     }
 }
