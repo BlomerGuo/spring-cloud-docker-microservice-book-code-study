@@ -14,8 +14,8 @@ spring:
     name: microservice-provider-user
 logging:
   level:
-    root: INFO
-    org.hibernate: INFO
+    root: DEBUG
+    org.hibernate: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtrator: TRACE
 info:

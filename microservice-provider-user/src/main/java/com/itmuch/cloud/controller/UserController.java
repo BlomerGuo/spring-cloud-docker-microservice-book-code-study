@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by BaronGuo on 2019/2/16.
+ * Created by BaronGuo on 2021/07/31.
  */
 @RestController
 public class UserController {
@@ -17,6 +17,7 @@ public class UserController {
 
     @GetMapping("/{id}")
     public User findById(@PathVariable Long id){
+        System.out.println("id in user provider is " + id);
         User user = this.userRepository.findOne(id );
         return user;
     }
