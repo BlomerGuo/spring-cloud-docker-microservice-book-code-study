@@ -3,9 +3,12 @@ server:
 spring:
   application:
     name: microservice-consumer-movie
+  logging:
+    level:
+      root: DEBUG
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer1:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
